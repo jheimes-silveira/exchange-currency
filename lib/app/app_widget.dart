@@ -8,6 +8,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       navigatorKey: Modular.navigatorKey,
       title: 'Exchange currency',
+      debugShowCheckedModeBanner: false,
       theme: MyTheme.light,
       initialRoute: '/',
       onGenerateRoute: Modular.generateRoute,
